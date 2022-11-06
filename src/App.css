@@ -1,0 +1,114 @@
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #23252C;
+}
+.card-image{
+width: inherit;
+border-radius: 10px 10px 0px 0px;
+}
+.card{
+  /* border: 2px solid red; */
+  width: 25rem;
+  border-radius: 10px;
+  /* width: 317px; */
+  /* height: 399px; */
+  /* left: 116px;
+  top: 361px; */
+ 
+  color: white;
+  background: #1A1B21;
+ 
+}
+
+.mainCard{
+  /* padding:0px 35px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Name{
+  /* padding: 1px 30px; */
+  margin-bottom: 0;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.designation{
+  
+  color: #F3BF99;
+  font-size: 15px;
+}
+.Topic{
+  margin-top: 1px;
+  font-size: 10px;
+
+}
+
+.Email-btn{
+  width: 15rem;
+  height: 2rem;
+  /* padding: 1px 1px; */
+  margin: 0px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  padding: 0px 1rem;
+}
+h2{
+  margin-bottom: 0;
+}
+
+.Foot{
+  background: #3d3d46;
+border-radius: 0px 0px 10px 10px;
+display: flex;
+justify-content: center;
+
+}
+.Foot >button{
+  margin: 4px 4px;
+  /* background: #918E9B; */
+  background:  #3d3d46;
+  border: none;
+}
+
